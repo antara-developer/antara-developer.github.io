@@ -5,7 +5,7 @@
 
 .contact-heading {
   margin: auto;
-  width: 70%;
+  /* width: 70%; */
   font-family: "Adobe Clean Regular", sans-serif;
 }
 
@@ -16,21 +16,20 @@
 
 .contact-cards {
   overflow-x: hidden;
-  margin-bottom: 10vw;
+  padding: 2.5rem 0;
 }
 
 .contacts {
-  padding: 2vw 10vw 2vw 10vw;
-  margin-top: 3vw;
+  padding: 2rem 0;
 }
 
 .card {
-  min-height: 30vw;
+  min-height: 30rem;
   text-align: center;
 }
 
 .card-text {
-  min-height: 6vw;
+  min-height: 6rem;
   font-size: smaller;
 }
 
@@ -41,7 +40,7 @@
 
 .card-body {
   background-color: #9b261b;
-  border-radius: 0.45vw;
+  border-radius: 0.45rem;
 }
 
 .card-body p.card-title,
@@ -55,7 +54,7 @@
 }
 
 .card-img {
-  padding-bottom: 2vw;
+  padding-bottom: 2rem;
 }
 
 .card-img img {

@@ -29,12 +29,16 @@ body {
     padding: 0;
 }
 
+footer{
+    position: relative;
+    top: 50px;
+}
+
 .cmp-footer {
-    background-color: #3e3e3e;
-    padding: 32px 32px 16px 32px;
-    padding-left: 2.5vw !important;
-    padding-right: 2.5vw !important;
-    position: absolute;
+  background-color: #3e3e3e;
+  padding: 32px 32px 16px 32px;
+  padding-left: 2.5rem !important;
+  padding-right: 2.5rem !important;
 }
 
 .cmp-footer__top {
