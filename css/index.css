@@ -2,7 +2,7 @@
 
 .photo-g-header {
   margin: auto;
-  width: 70%;
+  /* width: 70%; */
 }
 
 .owl-carousel {
@@ -12,7 +12,7 @@
 .owl-prev {
   background: url("https://res.cloudinary.com/milairagny/image/upload/v1487938188/left-arrow_rlxamy.png")
     left center no-repeat;
-  height: 4vw;
+  height: 4rem;
   position: absolute;
   top: 40%;
   width: 27px;
@@ -26,7 +26,7 @@
 .owl-next {
   background: url("https://res.cloudinary.com/milairagny/image/upload/v1487938220/right-arrow_zwe9sf.png")
     right center no-repeat;
-  height: 4vw;
+  height: 4rem;
   position: absolute;
   top: 40%;
   width: 27px;
@@ -44,14 +44,14 @@
 @media screen and (min-width: 768px) and (max-width: 1100px) {
   .owl-next,
   .owl-prev {
-    height: 9vw;
+    height: 9rem;
   }
 }
 
 @media screen and (max-width: 768px) {
   .owl-next,
   .owl-prev {
-    height: 14vw;
+    height: 14rem;
   }
 }
 
