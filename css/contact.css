@@ -4,19 +4,18 @@
 }
 
 .contact-heading {
-  margin: auto;
+  /* margin: auto; */
   /* width: 70%; */
   font-family: "Adobe Clean Regular", sans-serif;
 }
 
 .contact-heading h1 {
   font-weight: 900;
-  padding-top: 5rem;
 }
 
 .contact-cards {
   overflow-x: hidden;
-  padding: 2.5rem 0;
+  margin: 8rem 0;
 }
 
 .contacts {
