@@ -101,8 +101,8 @@
 
 @media (max-width: 575.98px) {
   .para-text {
-    padding: 4rem;
-    font-size: 1.25rem;
+    padding: 4rem !important;
+    font-size: 1.25rem !important;
   }
   .icons-col-center {
     display: none !important;
@@ -113,6 +113,9 @@
   .para-text {
     padding: 6rem;
     font-size: 1.5rem;
+  }
+  .icons-col-center {
+    display: none !important;
   }
 }
 

@@ -27,7 +27,7 @@
 }
 
 .navbar.navbar-dark.navbar-expand-lg {
-    padding-top: 3rem;
+    padding: 2rem;
     background-color: black;
 }
 
@@ -68,7 +68,7 @@
 
 @media screen and (max-width: 992px) {
   .navbar.navbar-dark.navbar-expand-lg {
-    padding: 1.5rem 1.5rem 0 1.5rem;
+    padding: 1.5rem;
   }
 
   .nav-item {
