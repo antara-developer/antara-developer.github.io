@@ -75,6 +75,11 @@
   justify-content: center;
 }
 
+.custom-container {
+  width: 85%;
+  margin: 0 auto;
+}
+
 @media (max-width: 575.98px) {
   .para-text {
     padding: 4rem;
