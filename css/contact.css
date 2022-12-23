@@ -11,6 +11,7 @@
 
 .contact-heading h1 {
   font-weight: 900;
+  padding-top: 5rem;
 }
 
 .contact-cards {
@@ -20,6 +21,7 @@
 
 .contacts {
   padding: 2vw 10vw 2vw 10vw;
+  margin-top: 3vw;
 }
 
 .card {

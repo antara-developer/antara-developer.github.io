@@ -3,9 +3,6 @@
   src: url(../adobe-clean-cufonfonts/);
 }
 
-.rockstars-desc {
-  margin-bottom: 6vw;
-}
 
 .para-text {
   border-radius: 1vw;
@@ -39,8 +36,7 @@
 
 .cmp-details {
   background-color: white;
-  padding: 2.5vw 0vw;
-  margin: 0vw;
+  padding-top: 5rem;
 }
 
 .cmp-details__desc {
