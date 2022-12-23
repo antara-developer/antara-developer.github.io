@@ -1,79 +1,78 @@
 @font-face {
-    font-family: "Adobe Clean";
-    src: url(../adobe-clean-cufonfonts/);
+  font-family: "Adobe Clean";
+  src: url(../adobe-clean-cufonfonts/);
 }
 
-.rockstars-desc{
-    margin-bottom: 6vw;
+.rockstars-desc {
+  margin-bottom: 6vw;
 }
 
-.para-text{
-    border-radius: 1vw;
-    color: white;
-    padding: 8vw;
-    margin-top: 3vw;
-    word-wrap: break-word;
-    font-size: 1.75vw;
-    text-align: justify;
-    font-family: "Adobe Clean Light", sans-serif;
+.para-text {
+  border-radius: 1vw;
+  color: white;
+  padding: 8vw;
+  margin-top: 3vw;
+  word-wrap: break-word;
+  font-size: 1.75vw;
+  text-align: justify;
+  font-family: "Adobe Clean Light", sans-serif;
 }
 
-.img-size{
-    width: 4vw;
-    height: 4vw;
+.img-size {
+  width: 4vw;
+  height: 4vw;
 }
-.rotate-34{
-    -ms-transform: rotate(34deg); 
-    transform: rotate(34deg);
-}
-
-.rotate-neg-38{
-    -ms-transform: rotate(-38deg); /* IE 9 */
-    transform: rotate(-38deg);
+.rotate-34 {
+  -ms-transform: rotate(34deg);
+  transform: rotate(34deg);
 }
 
-.rotate-38{
-    -ms-transform: rotate(38deg); /* IE 9 */
-    transform: rotate(38deg);
+.rotate-neg-38 {
+  -ms-transform: rotate(-38deg); /* IE 9 */
+  transform: rotate(-38deg);
 }
 
-.cmp-details{
-    background-color: white; 
-    padding: 2.5vw 0vw; 
-    margin: 0vw;
+.rotate-38 {
+  -ms-transform: rotate(38deg); /* IE 9 */
+  transform: rotate(38deg);
 }
 
-.cmp-details__desc{
-    margin: auto; 
-    width: 70%;
+.cmp-details {
+  background-color: white;
+  padding: 2.5vw 0vw;
+  margin: 0vw;
 }
 
-.cmp-details__desc h1{
-    font-family: "Adobe Clean Regular", sans-serif;
-    font-weight: 900;
+.cmp-details__desc {
+  margin: auto;
+  width: 70%;
 }
 
-.cmp-details__desc1{
-    margin: auto; 
-    width: 90%
+.cmp-details__desc h1 {
+  font-family: "Adobe Clean Regular", sans-serif;
+  font-weight: 900;
 }
 
-.red-bg{
-    background-color: #cb3729;
+.cmp-details__desc1 {
+  margin: auto;
+  width: 90%;
 }
 
-.black-bg{
-    background-color: #292929;
+.red-bg {
+  background-color: #cb3729;
 }
 
-.row-position{
-    justify-content: center;
+.black-bg {
+  background-color: #292929;
 }
 
-.icons-col-center{
-    
-    align-items: center;
-    justify-content: center;
+.row-position {
+  justify-content: center;
+}
+
+.icons-col-center {
+  align-items: center;
+  justify-content: center;
 }
 
 /* @media screen and (max-width: 768px){
