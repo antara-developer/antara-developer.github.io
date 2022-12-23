@@ -1,66 +1,67 @@
 @font-face {
-    font-family: "Adobe Clean";
-    src: url(../adobe-clean-cufonfonts);
+  font-family: "Adobe Clean";
+  src: url(../adobe-clean-cufonfonts);
 }
 
-.contact-heading{
-    margin: auto; 
-    width: 70%;
-    font-family: "Adobe Clean Regular", sans-serif;
+.contact-heading {
+  margin: auto;
+  width: 70%;
+  font-family: "Adobe Clean Regular", sans-serif;
 }
 
-.contact-heading h1{
-    font-weight: 900;
+.contact-heading h1 {
+  font-weight: 900;
 }
 
-.contact-cards{
-    overflow-x: hidden;
-    margin-bottom: 10vw;
+.contact-cards {
+  overflow-x: hidden;
+  margin-bottom: 10vw;
 }
 
-.contacts{
-    padding: 2vw 10vw 2vw 10vw;
+.contacts {
+  padding: 2vw 10vw 2vw 10vw;
 }
 
-.card{
-    min-height: 30vw;
-    text-align: center;
+.card {
+  min-height: 30vw;
+  text-align: center;
 }
 
-.card-text{
-    min-height: 6vw;
-    font-size: smaller;
+.card-text {
+  min-height: 6vw;
+  font-size: smaller;
 }
 
-.contact-links{
-    display: flex;
-    justify-content: center;
+.contact-links {
+  display: flex;
+  justify-content: center;
 }
 
-.card-body{
-    background-color: #9B261B;
-    border-radius: 0.45vw;
+.card-body {
+  background-color: #9b261b;
+  border-radius: 0.45vw;
 }
 
-.card-body p.card-title, .card-body p.card-name{
-    font-family: "Adobe Clean Light", sans-serif;
+.card-body p.card-title,
+.card-body p.card-name {
+  font-family: "Adobe Clean Light", sans-serif;
 }
 
-.card-body p.card-name{
-    font-family: "Adobe Clean Regular", sans-serif;
-    font-weight: 400;
+.card-body p.card-name {
+  font-family: "Adobe Clean Regular", sans-serif;
+  font-weight: 400;
 }
 
-.card-img{
-    padding-bottom: 2vw;
+.card-img {
+  padding-bottom: 2vw;
 }
 
-.card-img img{
-    width: 50%;
-    border-radius: 50%;
+.card-img img {
+  width: 50%;
+  border-radius: 50%;
 }
 
-.card-body p{
-    color: white;
-    font-family: "Adobe Clean Light", sans-serif;
+.card-body p {
+  color: white;
+  font-family: "Adobe Clean Light", sans-serif;
 }
