@@ -24,6 +24,7 @@ $(function () {
   });
 
 
+
 $('.owl-carousel').owlCarousel({
     autoplay: true,
     autoplayTimeout: 8000,
