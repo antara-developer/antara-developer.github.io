@@ -16,6 +16,14 @@
 // 	}
 // });
 
+$(function () {
+    $(document).scroll(function () {
+        var $nav = $(".sticky-top");
+        var $banner = $(".hero-banner")
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $banner.height());
+      });
+  });
+
 
 $('.owl-carousel').owlCarousel({
     autoplay: true,
