@@ -85,7 +85,7 @@
 }
 
 .cmp-heroBanner__title {
-    font-family: adobe-clean-semi-condensed, sans-serif;
+    font-family:  "Adobe Clean Regular",sans-serif;
     font-size: 4vw;
     /* font-weight: 700; */
     font-style: normal;
@@ -108,7 +108,7 @@
 
 
 .cmp-heroBanner__desc {
-    font-family: adobe-clean-semi-condensed, sans-serif;
+    font-family: "Adobe Clean Regular", sans-serif;
     font-size: 2vw;
     font-weight: 400;
     font-style: normal;

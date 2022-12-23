@@ -47,6 +47,12 @@
     margin: auto; 
     width: 70%;
 }
+
+.cmp-details__desc h1{
+    font-family: "Adobe Clean Regular", sans-serif;
+    font-weight: 900;
+}
+
 .cmp-details__desc1{
     margin: auto; 
     width: 90%

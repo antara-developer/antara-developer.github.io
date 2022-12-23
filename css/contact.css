@@ -15,7 +15,7 @@
 
 .contact-cards{
     overflow-x: hidden;
-    margin-bottom: 7vw;
+    margin-bottom: 10vw;
 }
 
 .contacts{
@@ -23,27 +23,22 @@
 }
 
 .card{
-    width: 18vw;
-    height: 30vw;
+    min-height: 30vw;
     text-align: center;
-}
-
-@media screen and (max-width: 1216px) {
-
-    .card{
-    width: 100%;
-    height: 30vw;
-    text-align: center;
-    }
-    
 }
 
 .card-text{
-    height: 6vw;
+    min-height: 6vw;
+    font-size: smaller;
+}
+
+.contact-links{
+    display: flex;
+    justify-content: center;
 }
 
 .card-body{
-    background-color: #cb3729;
+    background-color: #9B261B;
     border-radius: 0.45vw;
 }
 
