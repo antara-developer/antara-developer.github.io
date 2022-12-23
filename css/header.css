@@ -6,11 +6,13 @@
 .sticky-top.scrolled {
     background-color: rgb(0, 0, 0, 0.7) !important;
     transition: background-color 0.5s;
-  }
+}
   
-  .sticky-top.scrolled .nav-link-1 {
+.sticky-top.scrolled .nav-link-1 {
     color: white;
-  }
+}
+
+
 
 .hero-banner {
   background-image: url("../images/Background_Image.png");
