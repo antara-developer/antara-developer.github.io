@@ -96,3 +96,20 @@ $(document).click(function (event) {
     $navbar.collapse("hide");
   }
 });
+
+$(document).ready(function (event) {
+  $(".nav-link-1").click(function () {
+    var page = $(this).attr("href");
+    var offset = 110;
+    $("html, body").animate({
+      scrollTop: $(page).offset().top - offset,
+    });
+    var clickover = $(event.target);
+    var $navbar = $(".navbar-collapse");
+    var _opened = $navbar.hasClass("show");
+    if (_opened === true && !clickover.hasClass("navbar-toggler")) {
+      $navbar.collapse("hide");
+    }
+    return false;
+  });
+});
