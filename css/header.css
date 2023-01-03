@@ -3,15 +3,14 @@
   src: url(../adobe-clean-cufonfonts/AdobeCleanBlack.otf);
 }
 
-.sticky-top.scrolled {
+.fixed-top.scrolled {
     background-color: rgb(0, 0, 0, 0.7) !important;
     transition: background-color 0.5s;
 }
   
-.sticky-top.scrolled .nav-link-1 {
+.fixed-top.scrolled .nav-link-1 {
     color: white;
 }
-
 
 
 .hero-banner {
@@ -19,6 +18,7 @@
   /* background-color: black; */
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 6rem;
 }
 
 /*Header*/
@@ -41,6 +41,10 @@
   text-align: center;
   height: 100px;
   line-height: 100px;
+}
+
+nav{
+  min-height: 6rem;
 }
 
 .nav-item {
@@ -100,14 +104,12 @@
   /* font-weight: 700; */
   font-style: normal;
   color: white;
-  height: 6rem;
   display: flex;
   justify-content: center;
 }
 
 .cmp-heroBanner__title > p:hover:before {
   content: "Stay Tuned!";
-  height: 6rem;
 }
 
 .cmp-heroBanner__title > p:hover span {
@@ -172,6 +174,15 @@ form.example button:hover a {
 @media screen and (max-width: 992px) {
   .cmp-heroBanner__logo {
     width: 40%;
+  }
+  .cmp-heroBanner__title{
+    font-size: 3rem;
+  }
+  .nav-link-1 {
+    font-size: 1.4rem;
+  }
+  .nav-link-1:hover {
+    font-size: 1.5rem;
   }
 }
 
