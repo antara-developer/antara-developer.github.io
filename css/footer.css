@@ -15,6 +15,10 @@
     float: right;
 }
 
+.top:hover{
+    color: #fff;
+}
+
 body {
     margin: 0;
     padding: 0;

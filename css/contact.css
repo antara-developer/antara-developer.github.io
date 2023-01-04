@@ -29,7 +29,7 @@
 
 .card-text {
   min-height: 6rem;
-  font-size: smaller;
+  font-size: 400;
 }
 
 .contact-links {
@@ -38,8 +38,9 @@
 }
 
 .card-body {
-  background-color: #9b261b;
+    background-color: #9b261b;
   border-radius: 0.45rem;
+  padding-bottom: 1rem;
 }
 
 .card-body p.card-title,
@@ -49,7 +50,21 @@
 
 .card-body p.card-name {
   font-family: "Adobe Clean Regular", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
+}
+
+.card-body p.card-title {
+    color: white;
+}
+
+.for-bg{
+    padding: 1rem 0;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.for-bg p{
+    color: #9b261b;
 }
 
 .card-img {
@@ -62,6 +77,10 @@
 }
 
 .card-body p {
-  color: white;
   font-family: "Adobe Clean Light", sans-serif;
+}
+
+hr{
+    color:#9b261b !important;
+    border-top: 1px solid !important;
 }
