@@ -111,7 +111,7 @@ li a:hover {
 .copyright p {
     color: #707070;
     float: right;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -132,7 +132,14 @@ li a:hover {
         text-align: center;
     }
 
-    .copyright {
-        font-size: 0.5rem;
+    .copyright{
+        padding-top: 1rem;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .copyright p{
+        text-align: center;
     }
 }
